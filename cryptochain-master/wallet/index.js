@@ -34,7 +34,7 @@ class Wallet {
     let hasConductedTransaction = false;
     let outputsTotal = 0;
 
-    for (let i=chain.length-1; i>0; i--) {
+    for (let i = chain.length - 1; i > 0; i--) {
       const block = chain[i];
 
       for (let transaction of block.data) {
